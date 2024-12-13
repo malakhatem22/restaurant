@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+    
+body{
+    background-image: url('https://st4.depositphotos.com/3664757/27559/i/450/depositphotos_275596086-stock-photo-ingredients-making-traditional-italian-pesto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+
+}
+.logo{
+    font-size: 50px;
+    color: orange;
+}
+.nav{
+    position: relative;
+    left: 49px;
+}
+.nav a{
+    padding: 5px 15px;
+    color: orange;
+   font-size: 20px;
+   text-decoration: none;
+}
+.nav a:hover{
+    color: 	white;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.search{
+    font-size: 25px;
+    color: orange;
+}
+.search i{
+    margin-left: 10px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+    align-items: center;
+}
+.right{
+    width: 440px;
+    height: 440px;
+    background-image: url('https://i.pinimg.com/474x/85/59/26/855926ca9c29b9b62f806e534b98ab1d.jpg');
+    border-radius: 400px;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 300px;
+    }
+
+ .right::before{
+    width: 430px;
+    height: 430px;
+    border: 2px solid white;
+    content: "";
+    position: absolute;
+    border-radius: 440px;
+    padding:10px;
+     }
+     
+     .left p:nth-child(1){
+        color: white;
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-style: italic;
+     }
+
+     .left h1{
+        font-size: 90px;
+        color: white;
+    }
+    .left p:nth-child(3){
+        color: orange;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+    .left button{
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+        border: 2px solid rgb(26, 23, 23);
+        background-color: whitesmoke;
+        margin: 20px 0px;
+    }
+    
+   
+   .social{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 40px;
+    height: 200px;
+    background-color: white;
+    font-size: 25px;
+   }
+
+   .social i:hover{
+    color: orange;
+    text-decoration: underline;
+    text-underline-position: under;
+   }
+   
+   #food1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm-a-cguGa7K-tyJ-K9p26zPUVVmDE8vRET0pMzI3xUh1KMoWvyjqL6zsEjukrxUcwyeI&usqp=CAU');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 400px;
+    margin: 0px 0px 100px 390px ;
+   }
+   #food2{
+    background-image: url('https://i.pinimg.com/474x/85/59/26/855926ca9c29b9b62f806e534b98ab1d.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 400px;
+    margin: 0px 170px 0px 30px ; 
+}
+   
+   .menu{
+    display: flex;
+    margin: 0px 100px;
+
+   }
